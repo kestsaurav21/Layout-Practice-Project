@@ -14,7 +14,6 @@ body{
     background-color: #fff;
     margin: 80px 60px;
 }
-
 .row-container{
     display: flex;
     flex-direction: row;
@@ -50,17 +49,24 @@ body{
     background-color: #560E8D;
 }
 
-
+/* Big Screen Media Query */
 @media screen and (width > 1200px ){
     .container{
-        margin: 40px auto;
-    }
-    
+        margin: 80px auto;
+    }  
 }
 
-@media screen and (width < 400px ){
+/* Medium Screen Media Query */
+@media screen and ((width < 1200px) and (width > 450px)){
+    .container{
+        margin: 40px 60px;
+    }  
+}
+
+/* Small Screen Media Query */
+
+@media screen and (width < 450px ){
     .container{
         margin: 24px 16px;
-    }
-    
+    } 
 }
