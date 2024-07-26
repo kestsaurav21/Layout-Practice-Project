@@ -12,7 +12,6 @@ body{
     max-width: 1200px;
     height: 800px;
     background-color: #fff;
-    margin: 80px 60px;
 }
 .row-container{
     display: flex;

@@ -1,4 +1,5 @@
 
 
-<ins>App Preview</ins>
+<ins>Figma Layout Design</ins>
 ![Project Preview](src/layout.png)
+
