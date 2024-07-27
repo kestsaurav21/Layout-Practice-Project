@@ -41,3 +41,54 @@ body{
     width: 285px;
 }
 
+@media screen and (width < 1200px ) and (width> 450px) {
+    .container{
+        margin: 56px auto;
+        display: flex;
+        flex-direction: row;
+        width: 714px;
+        height: 1109px;
+        gap: 16px;
+    }
+    .box1{
+        width: 440px;
+        height: 273px;
+    }
+    
+    .box2{
+        width: 440px;
+        height: 824px;
+    }
+    
+    .box3{
+        height: 1109px;
+        width: 258px;
+    }
+    
+}
+
+@media screen and (width < 450px){
+    .container{
+        margin: 24px auto;
+        display: flex;
+        flex-direction: column;
+        width: 358px;
+        height: 932px;
+        gap: 16px;
+    }
+
+    .box1{
+        height: 188px;
+        width: 358px;
+    }
+    
+    .box2{
+        width: 358px;
+        height: 380px;
+    }
+    
+    .box3{
+        width: 358px;
+        height: 332px;
+    }
+}
