@@ -20,7 +20,6 @@ nav{
     min-height: 93px;
     display: flex;
     flex-direction: row;
-    margin: 14px auto;
 }
 
 
@@ -75,4 +74,49 @@ nav{
     height: 64px;
     border-radius: 40px;
 
+}
+
+
+.container{
+    padding-top: 36px;
+    display: flex;
+    flex-direction: column;
+    height: 836px;
+    width: 1200px;
+    margin: 129px auto;
+    gap: 24px;
+    
+}
+
+.card{
+    height: 148px;
+    width: 1200px;
+    background-color: #FFD8D8;
+    gap: 8px;
+    border-radius: 12px;
+}
+
+.content{
+    height: 100px;
+    width: 1152px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+}
+
+.circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: var(--red);
+}
+
+.right-content{
+    margin: auto;
+}
+.line{
+    width: 1028px;
+    height: 24px;
+    background-color: #5E0808;
+    margin: 6px;
 }
