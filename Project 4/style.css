@@ -1,3 +1,9 @@
+:root{
+    --body: #A70000;
+    --nav: #5E0808;
+    --red: #FF0000;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -5,68 +11,68 @@
 }
 
 body{
-    background-color: #9DC783;
+    background-color: var(--body);
 }
 
-.container{
-    max-width: 1200px;
-    min-height: 980px;
+nav{
+    background-color: var(--nav);
+    width: 100%;
+    min-height: 93px;
     display: flex;
-    flex-direction: column;
-    margin: 72px auto;
-    gap: 16px;
+    flex-direction: row;
+    margin: 14px auto;
 }
 
-.upper{
+
+.navlist{
+    height: 64px;
+    width: 1200px;
+    margin: 14px auto;
     display: flex;
-    flex-direction: column;
-    background-color: #fff;
-    min-height: 600px;
-    max-width: 1200px;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.row{
+.left-nav{
+    height: 40px;
+    max-width: 448px;
     display: flex;
     flex-direction: row;
     gap: 16px;
-    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    
 }
 
-.upper-box{
-    background-color: #D01010;
-    width: 575px;
-    height: 274px;
-    gap: 16px;
-    margin-top: 16px;
-}
-
-.lower{
-    max-width: 1200px;
-    min-height: 350px;
-    background-color: #fff;
-    margin: auto;
-}
-
-
-.upper-footer{
-    background-color: #0AAE42;
-    width: 1167px;
-    height: 235px;
-    margin: auto;
-    margin-top: 16px;
-}
-
-.lower-row{
+.right-nav{
+    height: 64px;
     display: flex;
     flex-direction: row;
-    gap: 17px;
-    margin: 16px 16px;
 }
 
-.box{
-    background-color: #1BFF69;
-    width: 279px;
-    height: 68px;
+.logo{
+    width: 160px;
+    height: 40px;
+    background-color: var(--red);
+    margin: auto;
 }
 
+.link-nav{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin: auto;
+}
 
+.link{
+    background-color: var(--red);
+    width: 56px;
+    height: 40px;
+}
+.avatar{
+    background-color: var(--red);
+    width: 64px;
+    height: 64px;
+    border-radius: 40px;
+
+}
