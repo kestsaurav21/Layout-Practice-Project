@@ -10,7 +10,7 @@ body{
 
 .container{
     max-width: 1200px;
-    min-height: 980px;
+    min-height: 1050px;
     display: flex;
     flex-direction: column;
     margin: 72px auto;
@@ -23,13 +23,13 @@ body{
     background-color: #fff;
     min-height: 600px;
     max-width: 1200px;
+    padding: 20px;
 }
 
 .row{
     display: flex;
     flex-direction: row;
     gap: 10px;
-    margin: auto;
 }
 
 .upper-box{
@@ -44,7 +44,7 @@ body{
     max-width: 1200px;
     min-height: 350px;
     background-color: #fff;
-    margin: auto;
+    padding: auto;
 }
 
 
@@ -54,6 +54,8 @@ body{
     height: 235px;
     margin: auto;
     margin-top: 16px;
+    display: flex;
+    flex-direction: column;
 }
 
 .lower-row{
@@ -61,13 +63,13 @@ body{
     flex-direction: row;
     gap: 17px;
     margin: 16px 16px;
+    
 }
 
 .box{
     background-color: #1BFF69;
-    width: 279px;
+    width: 275px;
     height: 68px;
-    margin: auto;
 }
 
 .lower-footer{
