@@ -119,10 +119,16 @@ nav{
     background-color: var(--line);
 }
 
-/* @media screen and (width > 600px) and (width > 600px){
+/* Tablet Screen */
 
-} */
+@media screen and (width > 600px) and (width < 1250px){
+    .navlist{
+        padding: 12px;
+    }
+}
 
+
+/* Phone Screen */
 @media screen and (width < 600px) {
     nav{
         width: 100%;
